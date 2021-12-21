@@ -28,11 +28,16 @@ public class PECSDemo {
     }
 
     public void m2() {
-        List<? super Fruits> consumer = new ArrayList<>();
-        List<? extends Fruits> producer = new ArrayList<>();
-        consumer.add(new Apple(1));
+        List<Apple> pList = new ArrayList<>();
+        pList.add(new Apple(1));
+        List<? extends Fruits> producer = pList;
         Fruits fruits = producer.get(0);
-//        Fruits f = consumer.get(0);
-//        producer.add(new Apple(1));
+        System.out.println(fruits.getWeight());
+
+        List<Fruits> cList = new ArrayList<>();
+        cList.add(new Fruits(2));
+        List<? super Fruits> consumer = cList;
+        consumer.add(new Apple(3));
+        System.out.println(consumer);
     }
 }
