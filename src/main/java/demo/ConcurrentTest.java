@@ -1,7 +1,5 @@
 package demo;
 
-import test.Test6;
-
 public class ConcurrentTest {
 
     private static boolean flag = true;
