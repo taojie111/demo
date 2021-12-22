@@ -169,4 +169,8 @@ public class ConcurrentTest {
             }
         }*/
     }
+
+    public static void testLock() {
+
+    }
 }

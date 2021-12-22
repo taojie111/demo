@@ -1,4 +1,4 @@
-package demo.socket;
+package demo.socket.bio;
 
 import java.io.OutputStream;
 import java.io.PrintWriter;
