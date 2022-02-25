@@ -35,5 +35,25 @@
             <version>1.16.18</version>
             <scope>provided</scope>
         </dependency>
+
     </dependencies>
+
+    <!--配置仓库-->
+   <!-- <repositories>
+        <repository>
+            <id>admin</id>
+            <url>http://172.20.23.219:8081/repository/devops-maven/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+
+        <repository>
+            <id>admin2</id>
+            <url>http://172.20.23.219:8081/repository/maven-releases/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>-->
 </project>
